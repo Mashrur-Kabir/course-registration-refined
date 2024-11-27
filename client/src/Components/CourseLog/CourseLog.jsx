@@ -161,7 +161,7 @@ const CourseLog = ({ logs }) => {
             </button>
           ) : (
             <Link to="/login">
-              <button className="mt-6 bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-lg transition duration-300">
+              <button className="mt-6 bg-pink-500 hover:bg-pink-500 text-white py-2 px-4 rounded-lg transition duration-300">
                 Pay Now
               </button>
             </Link>
