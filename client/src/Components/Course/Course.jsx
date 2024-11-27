@@ -75,7 +75,11 @@ const Course = ({
 
           if (response.ok) {
             // Handle successful deletion, maybe remove it from the UI
-            Swal.fire("Deleted!", "Your course has been deleted.", "success");
+            Swal.fire(
+              "Deleted!",
+              "Your course has been successfully deleted.",
+              "success"
+            );
             // Optionally, refresh or update the UI
           } else {
             Swal.fire("Error!", "Failed to delete the course.", "error");
